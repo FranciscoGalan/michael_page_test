@@ -10,7 +10,7 @@ Based on the [dummy data](https://github.com/FranciscoGalan/michael_page_test/bl
 
 ## Part 2
 
-Based on the Result Table, I build a dashboard on Tableau Public, as described on the instructions. 
+Based on the Result Table, I built a dashboard on Tableau Public, as described on the instructions. 
 
 **Click [here to see the dashboard](https://public.tableau.com/app/profile/francisco.galan/viz/TestPerformanceDashboard/Dashboard).**
 
