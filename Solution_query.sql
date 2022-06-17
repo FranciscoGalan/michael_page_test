@@ -28,7 +28,7 @@ WHERE date IS NOT NULL;
  * 
  * 2. It joins Tables 1 and 3, and Tables 2 and 4.
  * 
- * 3. It makes a union between Tables 1, 2, 3, and 4.
+ * 3. It makes a union between Tables 1-3 and 2-4.
  * 
  * 4. It joins Tables 1-4 with Table 5. 
  * 
@@ -99,7 +99,7 @@ table_5_clean AS
 	FROM table_5 AS t5
 	GROUP BY date, utm_source, campaign
 	ORDER BY date, utm_source, campaign)
-SELECT 	t1_4.date, 
+SELECT	t1_4.date, 
 		provider, 
 		network, 
 		account_id,
